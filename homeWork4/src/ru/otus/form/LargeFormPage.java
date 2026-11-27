@@ -12,7 +12,6 @@ import java.util.logging.Logger;
 
 public class LargeFormPage {
 
-    private static final String URL = "https://the-internet.herokuapp.com/large_form";
     private static final Logger log = Logger.getLogger(LargeFormPage.class.getName());
 
     private final WebDriver driver;
@@ -23,9 +22,9 @@ public class LargeFormPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    public void open() {
-        log.info("Открываю страницу " + URL);
-        driver.get(URL);
+    public void open(String url) {
+        log.info("Открываю страницу " + url);
+        driver.get(url);
     }
 
     public void fill(FormData data) {
