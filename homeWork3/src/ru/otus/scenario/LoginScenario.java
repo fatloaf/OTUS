@@ -10,10 +10,6 @@ import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * 3) Chrome в режиме полного экрана, страница /login:
- * логин tomsmith / SuperSecretPassword! и проверка «Logged in as tomsmith».
- */
 public class LoginScenario implements Scenario {
 
     @Override

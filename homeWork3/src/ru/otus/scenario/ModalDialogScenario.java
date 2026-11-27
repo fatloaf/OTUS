@@ -12,10 +12,6 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * 2) Chrome в режиме киоска, страница /dialog:
- * нажать «Open modal dialog» и проверить, что модальное окно открылось.
- */
 public class ModalDialogScenario implements Scenario {
 
     @Override

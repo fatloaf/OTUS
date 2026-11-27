@@ -7,9 +7,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * 1) Headless Chrome, страница /inputs: ввести 42 и проверить значение поля.
- */
 public class InputsScenario implements Scenario {
 
     @Override
